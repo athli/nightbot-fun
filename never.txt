@@ -1,16 +1,23 @@
-!editcom never 
-$(eval var a = "$(query)".toUpperCase();
-    if (a.startsWith("GONNA G")){
-        "NEVER GONNA LET YOU DOWN";}
-    else if (a.startsWith("GONNA R")){
-        "AND DESERT YOU";}
-    else if (a.startsWith("GONNA M") ){
-        "NEVER GONNA SAY GOODBYE";}
-    else if (a.startsWith("GONNA T") ){
-        "AND HURT YOU";}
-    else if (a.startsWith("GONNA L") ){
-        "NEVER GONNA RUN AROUND";}
-    else if (a.startsWith("GONNA S") ){
-        "NEVER GONNA TELL A LIE";}
-    else {"say never";}
-)
+$(eval var a = "$(2)".toLowerCase();
+    switch(a) {
+        case "give":
+            "NEVER GONNA LET YOU DOWN";
+            break;
+        case "run":
+            "AND DESERT YOU";
+            break;
+        case "make":
+            "NEVER GONNA SAY GOODBYE";
+            break;
+        case "tell":
+            "AND HURT YOU";
+            break;
+        case "let":
+            "NEVER GONNA RUN AROUND";
+            break;
+        case "say":
+            "NEVER GONNA TELL A LIE";
+            break;
+        default:
+            "say never";
+    }
