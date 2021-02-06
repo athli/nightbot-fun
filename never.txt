@@ -1,0 +1,16 @@
+!editcom never 
+$(eval var a = "$(query)".toUpperCase();
+    if (a.startsWith("GONNA G")){
+        "NEVER GONNA LET YOU DOWN";}
+    else if (a.startsWith("GONNA R")){
+        "AND DESERT YOU";}
+    else if (a.startsWith("GONNA M") ){
+        "NEVER GONNA SAY GOODBYE";}
+    else if (a.startsWith("GONNA T") ){
+        "AND HURT YOU";}
+    else if (a.startsWith("GONNA L") ){
+        "NEVER GONNA RUN AROUND";}
+    else if (a.startsWith("GONNA S") ){
+        "NEVER GONNA TELL A LIE";}
+    else {"say never";}
+)
