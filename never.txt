@@ -21,3 +21,4 @@ $(eval var a = "$(2)".toLowerCase();
         default:
             "say never";
     }
+)
