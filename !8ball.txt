@@ -1,4 +1,3 @@
 // cycles through 8 ball type responses at random
 
-$(eval const q=["N OMEGALUL", "YEP", "maybe monkaHmm", "who knows SmileW"]; 
-q[Math.floor(Math.random() * q.length)];)
+$(eval const q=["YEP", "maybe monkaHmm", "who knows? SmileW", "N OMEGALUL"]; q[Math.floor(Math.random()* q.length)];)
