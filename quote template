@@ -1,0 +1,2 @@
+"$(eval const q=["quote1", "quote2", "quote3"]; 
+q[Math.floor(Math.random() * q.length)];)"
