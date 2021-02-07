@@ -1,0 +1,19 @@
+$(eval var a = "$(1)".toLowerCase(); switch(a) {
+case "desert":
+"NEVER GONNA MAKE YOU CRY";
+break;
+case "hurt":
+"HYPERS";
+break;
+case "they":
+{var c = 1; var b=" "; 
+while (c < 21){
+b=b+" AND THEY DON'T STOP COMING"; 
+c = Math.floor(Math.random()*30);
+if (c==29){b="dude chill you've said this enough times now";}} 
+b};
+break;
+default:
+"nand";
+break;
+})
