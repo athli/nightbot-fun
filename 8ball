@@ -1,0 +1,2 @@
+$(eval const q=["YEP", "maybe monkaHmm", "who knows? SmileW", "N OMEGALUL"]; 
+q[Math.floor(Math.random()* q.length)];)
