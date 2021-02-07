@@ -1,0 +1,12 @@
+$(eval var a = "$(1)".toLowerCase(); switch(a) {
+case "thing1":
+"response1";
+break;
+case "thing2":
+"response2";
+break;
+default:
+"default response";
+break;
+})
+NOTE: "thing"s must be lowercase for code to work
