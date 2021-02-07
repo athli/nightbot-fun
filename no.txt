@@ -1,0 +1,8 @@
+$(eval var a = "$(1)".toLowerCase(); switch(a) {
+case "u":
+"uno reverse";
+break;
+default:
+"yes";
+break;
+})
