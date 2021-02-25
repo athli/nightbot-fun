@@ -6,14 +6,15 @@ case "hurt":
 "HYPERS";
 break;
 case "they":
-{var c = 1; var b=" "; 
-while (c < 21){
-b=b+" AND THEY DON'T STOP COMING"; 
-c = Math.floor(Math.random()*30);
-if (c==29){b="dude chill you've said this enough times now";}} 
-b};
+  {var c = 1; var b=" "; 
+    while (c < 17)
+    {b=b+" AND THEY DON'T STOP COMING"; 
+    c = Math.floor(Math.random()*25);
+    if (c==24 || $(count)%7==0)
+    {b="dude chill you've said this enough times now";}
+    } 
+  b};
 break;
 default:
 "nand";
-break;
 })
