@@ -1,0 +1,14 @@
+// moderators and owners get special slot machines YEP
+
+$(eval 
+    const q=["🟥 ", "🟧 ", "🟨 ", "🟩 ", "🟦 ", "🟪 "]; 
+    const banned=[" "]; 
+    var a = q[Math.floor(Math.random()* q.length)]; 
+    if(banned.includes("$(user)")) {
+        "Trying to get around the ban hmm?";
+    } else if ("$(userlevel)" =="moderator" || "$(userlevel)"=="owner") {
+        a+a+a+"totally legit win YEP";
+    } else {
+        "look at this pleb trying to cheat smh";
+    }
+)

@@ -1,0 +1,12 @@
+// song lyrics: dancing in september - earth, wind, and fire
+
+$(eval 
+var a = "$(2)".toLowerCase(); 
+switch(a){
+    case "danced":
+        "HOW THE STARS STOLE THE NIGHT AWAYYY OH YEAHHH";
+        break;
+    default:
+        " ";
+    }
+)

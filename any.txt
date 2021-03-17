@@ -1,0 +1,15 @@
+/* song lyrics:
+ *     "bohemian rhapsody" - queen
+ */
+
+$(eval 
+var a = "$(3)".toLowerCase(); 
+switch(a) {
+    case "wind":
+        "doesn't really matter";
+        break;
+    default:
+        " ";
+        break;
+    }
+)

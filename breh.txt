@@ -1,0 +1,11 @@
+// breh with multiple b's
+
+$(eval 
+    var a=1; 
+    var b="b";
+    while (a < 8){ 
+        b=b+"b"; 
+        a = Math.floor(Math.random()*11);
+    } 
+    b+"reh";
+)

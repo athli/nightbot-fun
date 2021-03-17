@@ -1,0 +1,9 @@
+// rock, paper, scissors - ask user for input as necessary
+// implementation: nightbot always wins
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    var b = {"rock" : "paper","paper" : "scissors","scissors" : "rock"}; 
+    var c = b[a];
+    (c !== undefined) ? c+", you lose" : "rock, paper or scissors idiot";
+)

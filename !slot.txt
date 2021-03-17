@@ -1,0 +1,27 @@
+// no gamba problems here YEP
+
+$(eval 
+    var t=$(count)+708; 
+    var x="@$(user)"; 
+    var y="$(user)"; 
+    $(urlfetch json https://pastebin.com/raw/4aVSwWkh)
+)
+
+// pastebin code is as follows:
+// note: anyone with gamba problem gets added to banned
+
+var q=[":red_square: ",":orange_square: ",":yellow_square: ",":green_square: ",":blue_square: ",":purple_square: "]; 
+var banned=[" "]; 
+var l=q.length; 
+var a=q[Math.floor(Math.random()*l)]; 
+var b=q[Math.floor(Math.random()*l)]; 
+var c=q[Math.floor(Math.random()*l)]; 
+
+if(banned.includes(y)){
+	"Are you sure you don't have a gamba problem monkaHmm";
+} else if(a==b && b==c){
+	a+b+c+x+" Congrats on winning absolutely nothing! "+t+" attempts";
+} else if(a+b+c==":red_square: :yellow_square: :green_square: " || a+b+c==":green_square: :yellow_square: :red_square: "){
+	a+b+c+x+" traffic light POGGERS "+t+" attempts";
+} else{
+	a+b+c+x+" You lost at a meaningless rng grind! "+t+" attempts";}

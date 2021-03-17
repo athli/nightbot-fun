@@ -1,0 +1,3 @@
+// gets age of twitch account (but you could just hover over them too...)
+
+$(twitch $(touser) "$(touser)’s account was created {{createdAt}} and is {{createdLength}} old")

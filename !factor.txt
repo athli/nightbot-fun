@@ -1,0 +1,16 @@
+// factors a given integer, prompts for integer if none given
+
+$(eval 
+    var a = "$(1)"; var b= " "; 
+    if (isNaN(a) || Number(a)%1!=0) {
+        "Please input an integer";
+    } 
+    else {
+        for (var i=1; i <= Number(a); i++) {
+            if (a%i==0) {
+                b=b+" "+i
+            } 
+            b;
+        }
+    }
+)
