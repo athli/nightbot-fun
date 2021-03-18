@@ -1,0 +1,11 @@
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "you":
+        case "u":
+            "watch your hecking language";
+            break;
+        default:
+            "lol idiot";
+    }
+)

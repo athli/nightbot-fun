@@ -1,0 +1,16 @@
+// song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+        switch(a) {
+            case "galileo":
+                "galileo galileo";
+                break;
+            case "figaro":
+                "magnificooooooo";
+                break;
+            default:
+                " ";
+                break;
+        }
+)

@@ -1,0 +1,14 @@
+// song lyrics: bohemian rhapsody - queen
+// i think?????
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "me":
+            "for me FOR MEEEEE";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

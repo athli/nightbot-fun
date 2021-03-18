@@ -1,0 +1,11 @@
+// bruh with varying number of b's
+
+$(eval 
+    var a = 1; 
+    var b='b';
+    while (a < 8){ 
+        b=b+'b'; 
+        a = Math.floor(Math.random()*10);
+    } 
+    b+"ruh";
+)

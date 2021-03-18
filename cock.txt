@@ -1,0 +1,10 @@
+$(eval 
+    var a = "$(2)".toLowerCase(); 
+    switch(a) {
+        case "balls":
+            "Tottenham Hotspur FC";
+            break;
+        default:
+            "HEY! stop. That’s not appropriate!";
+    }
+)

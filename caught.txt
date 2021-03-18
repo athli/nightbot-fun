@@ -1,0 +1,13 @@
+// song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(3)".toLowerCase(); 
+    switch(a) {
+        case "landslide":
+            "no escape from reality";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

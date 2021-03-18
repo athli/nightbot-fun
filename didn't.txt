@@ -1,0 +1,16 @@
+// song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(5)".toLowerCase(); 
+    switch(a) {
+        case "cry":
+            "if i'm not back again this time tomorrow";
+            break;
+        case "live":
+            "YOUR BRAIN GETS SMART BUT UR HEAD GETS DUMB";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

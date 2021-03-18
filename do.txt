@@ -1,0 +1,13 @@
+// song lyrics: dancing in september - earth, wind, and fire
+
+$(eval 
+    var a = "$(query)".toLowerCase(); 
+    switch(a) {
+        case "you remember":
+            "THE 21ST NIGHT OF SEPTEMBER";
+            break;
+        default:
+            " ";
+            break;
+    }
+)
