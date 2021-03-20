@@ -1,0 +1,13 @@
+// not sure what this references
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "everybody":
+            "i've got to go";
+            break;
+        default:
+            "and thanks for all the fish";
+            break;
+    }
+)

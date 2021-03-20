@@ -1,0 +1,13 @@
+// song lyrics: all star - smash mouth
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "paid":
+            "ALL THAT GLITTERS IS GOLD";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

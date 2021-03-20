@@ -1,0 +1,13 @@
+// greeting
+// song lyrics: dancing in september - earth, wind, and fire
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "hey":
+            "BA DEE YAAAAA";
+            break;
+        default:
+            "hey";
+    }
+)

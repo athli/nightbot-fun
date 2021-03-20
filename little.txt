@@ -1,0 +1,13 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "high":
+            "little low";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

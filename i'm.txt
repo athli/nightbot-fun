@@ -1,0 +1,32 @@
+// Note: same code for im, aliasing doesn't work, not sure why
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(query)".toLowerCase(); 
+    switch(a) {
+        case "stoopid":
+        case "stupid":
+            "correctamundo";
+            break;
+        case "an idiot":
+            "indeed you are";
+            break;
+        case "dumb":
+        case "pepega":
+            "yes you are"; 
+            break; 
+        case "5head":
+            "no you're 2Head";
+            break;
+        case "just a poor boy":
+            if ($(count)%2==0){
+                "i need no sympathy";
+            } else {
+                "nobody loves me";
+            };
+            break;
+        default:
+            "no you're not";
+            break;
+    }
+)

@@ -1,0 +1,16 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "him":
+            "Bismallah! We will not let you go";
+            break;
+        case "me":
+            "we will not let you go";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

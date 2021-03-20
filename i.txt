@@ -1,0 +1,27 @@
+/*  Song lyrics:
+ *  all star - smash mouth
+ *  bohemian rhapsody - queen
+ *  Other miscellaneous
+*/
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "swear":
+            "pinky promise?";
+            break;
+        case "aint":
+        case "ain't":
+            "SHE WAS LOOKING KINDA DUMB";
+            break;
+        case "don't":
+            "i sometimes wish i'd never been born at all";
+            break;
+        case "see":
+            "scaramouche, scaramouche, will you do the fandango?";
+            break;
+        default:
+            "it's not all about you ok????? chill jeez";
+            break;
+    }
+)

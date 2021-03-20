@@ -1,0 +1,13 @@
+// forgot what this one is too
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "leave":
+            "and face the truth";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

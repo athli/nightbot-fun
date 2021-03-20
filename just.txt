@@ -1,0 +1,13 @@
+// Song lyrics but i don't remember the song
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "gotta":
+            "just gotta get right outta here";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

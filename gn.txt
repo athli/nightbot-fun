@@ -1,0 +1,13 @@
+// good night
+
+$(eval 
+    var a = "$(1)".toLowerCase(); 
+    switch(a) {
+        case "poopy":
+            "bnnn";
+            break;
+        default:
+            "gday";
+            break;
+    }
+)

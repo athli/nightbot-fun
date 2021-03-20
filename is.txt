@@ -1,0 +1,13 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(3)".toLowerCase(); 
+    switch(a) {
+        case "real":
+            "is this just fantasy?";
+            break;
+        default:
+            " ";
+            break;
+    }
+)
