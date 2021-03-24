@@ -1,0 +1,16 @@
+// Song lyrics: all star - smash mouth
+
+$(eval
+    var a = "$(2)".toLowerCase();
+    switch (a) {
+        case "all":
+            "GET YOUR GAME ON";
+            break;
+        case "rock":
+            "GET THE SHOW ON";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

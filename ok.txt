@@ -1,0 +1,9 @@
+// but is it ok?
+// Resumes all star - smash mouth
+
+$(eval
+    var a = "$(query)".toLowerCase();
+    if (a.includes("keep going")) {
+        "FED TO THE RULES AND I HIT THE GROUND RUNNING";
+    } else "that is not okey-dokey";
+)

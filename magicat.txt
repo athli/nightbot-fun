@@ -1,0 +1,6 @@
+// magipaw
+
+$(eval 
+    const q=["is still mod FeelsOkayMan", "the magic cat", "*dialogue3*"]; 
+    q[Math.floor(Math.random()* q.length)];
+)

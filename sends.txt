@@ -1,0 +1,14 @@
+// Song lyrics: bohemian rhapsody - queen
+// Note: should alias with "sent"
+
+$(eval
+    var a = "$(1)".toLowerCase();
+    switch (a) {
+        case "shivers":
+            "body's aching all the time";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

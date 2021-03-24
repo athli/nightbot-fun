@@ -1,0 +1,13 @@
+// Song lyrics: all star - smash mouth 
+
+$(eval
+    var a = "$(2)".toLowerCase();
+    switch (a) {
+        case "shine":
+            "HEY NOW";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

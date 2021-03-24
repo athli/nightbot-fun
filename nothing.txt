@@ -1,0 +1,13 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval
+    var a = "$(1)".toLowerCase();
+    switch (a) {
+        case "really":
+            "nothing really matters, nothing really matters to me";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

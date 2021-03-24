@@ -1,0 +1,10 @@
+// short or long nah
+
+$(eval 
+    var a=1; 
+    var b="h";
+    while (a < 8){ 
+        b=b+"h"; a = Math.floor(Math.random()*10);
+    } 
+    "yea"+b
+)

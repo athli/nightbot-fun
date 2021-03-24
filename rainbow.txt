@@ -1,0 +1,12 @@
+// rainbow is great
+
+$(eval
+    var a = 1;
+    var b = 'rainbow is ';
+    while (a < 8) {
+        b = b + 'very ';
+        a = Math.floor(Math.random() * 10);
+    }
+    b;
+) 
+pogchamp

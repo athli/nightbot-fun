@@ -1,0 +1,6 @@
+// nightbot dumb
+
+$(eval
+    const N = ['an idiot sandwich', 'a bitch', 'a dumbass', 'stoopid', 'a dumb bot', 'stinky', 'just an idiot'];
+    "I\'m " + N[Math.floor(Math.random() * N.length)];
+)

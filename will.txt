@@ -1,0 +1,11 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval
+    switch ("$(2)".toLowerCase()) {
+        case "let":
+            "bismallah! no, we will not let you go";
+            break;
+        default:
+            " ";
+    }
+)

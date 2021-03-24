@@ -1,13 +1,13 @@
-// being annoying yep
+// the fuck says hello
 
 $(eval
     var a = "$(1)".toLowerCase();
     switch (a) {
-        case "u":
-            "uno reverse";
+        case "fuck":
+            "hello, this is the fuck speaking";
             break;
         default:
-            "yes";
+            "the what?";
             break;
     }
 )

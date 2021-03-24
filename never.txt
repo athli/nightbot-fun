@@ -1,5 +1,11 @@
-$(eval var a = "$(2)".toLowerCase();
-    switch(a) {
+/* Song lyrics:
+ * never gonna give you up - rick astley
+ * dancing in september - earth, wind, and fire
+ */ 
+
+$(eval
+    var a = "$(2)".toLowerCase();
+    switch (a) {
         case "give":
             "NEVER GONNA LET YOU DOWN";
             break;
@@ -17,6 +23,9 @@ $(eval var a = "$(2)".toLowerCase();
             break;
         case "say":
             "NEVER GONNA TELL A LIE";
+            break;
+        case "a":
+            "catJAM";
             break;
         default:
             "say never";

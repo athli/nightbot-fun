@@ -1,0 +1,20 @@
+// Song lyrics: all star - smash mouth 
+// so what - p!nk
+
+$(eval
+    var a = "$(touser)".toLowerCase();
+    switch (a) {
+        case "much":
+            "SO MUCH TO SEE";
+            break;
+        case "what's":
+            "YOU'LL NEVER KNOW IF YOU DON'T GO";
+            break;
+        case "$(user)":
+            "SO WHAT";
+            break;
+        default:
+            "what?";
+            break;
+    }
+)

@@ -1,0 +1,9 @@
+// Song lyrics: all star - smash mouth
+
+$(eval
+    if (("$(query)").toLowerCase().startsWith("her finger")) {
+        "IN THE SHAPE OF AN L ON HER FOREHEAD";
+    } else {
+        " ";
+    }
+)

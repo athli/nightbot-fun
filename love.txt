@@ -1,0 +1,12 @@
+// song lyrics: bohemian rhapsody - queen
+
+$(eval 
+    var a = "$(4)".toLowerCase(); 
+    switch(a) {
+        case "minds":
+            "WHILE CHASING THE CLOUDS AWAYYY";
+            break;
+        default:
+            " ";
+    }
+)

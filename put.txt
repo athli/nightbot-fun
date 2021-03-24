@@ -1,0 +1,13 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval
+    var a = "$(2)".toLowerCase();
+    switch (a) {
+        case "gun":
+            "pulled my trigger, now he's dead";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

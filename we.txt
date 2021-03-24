@@ -1,0 +1,26 @@
+// Communism ft song lyrics
+// we didn't start the fire - billy joel
+
+$(eval
+    var a = "$(2)".toLowerCase();
+    var n = $(count);
+    switch (a) {
+        case "start":
+            if (n % 4 == 0) {
+                var c = 1;
+                var b = "AND ON";
+                while (c < 8) {
+                    b = b + " AND ON";
+                    c = Math.floor(Math.random() * 11);
+                }
+                "BUT WHEN WE ARE GONE WILL IT STILL BURN ON AND ON " + b + "...";
+            } else if (n % 2 == 0) {
+                "NO WE DIDN'T LIGHT IT BUT WE TRIED TO FIGHT IT"
+            } else {
+                "IT WAS ALWAYS BURNING SINCE THE WORLD'S BEEN TURNING"
+            };
+            break;
+        default:
+            "KEKWE";
+    }
+)

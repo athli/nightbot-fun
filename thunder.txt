@@ -1,0 +1,13 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval
+    var a = "$(2)".toLowerCase();
+    switch (a) {
+        case "lightning":
+            "very, very frightening me";
+            break;
+        default:
+            " ";
+            break;
+    }
+)

@@ -1,0 +1,5 @@
+// for pooply
+
+$(eval
+    const responses = ['poopy sucks', 'poopy is very pogchamp']; responses[Math.floor(Math.random() * responses.length)];
+)

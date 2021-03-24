@@ -1,13 +1,13 @@
-// being annoying yep
+// Song lyrics: bohemian rhapsody - queen
 
 $(eval
     var a = "$(1)".toLowerCase();
     switch (a) {
-        case "u":
-            "uno reverse";
+        case "late":
+            "my time has come";
             break;
         default:
-            "yes";
+            " ";
             break;
     }
 )

@@ -1,0 +1,15 @@
+// Song lyrics: bohemian rhapsody - queen
+
+$(eval
+    var a = "$(1)".toLowerCase();
+    switch (a) {
+        case "mama":
+            "mama mia let me go";
+            break;
+        case "baby":
+            "can't do this to me baby";
+            break;
+        default:
+            " ";
+            break;
+    })

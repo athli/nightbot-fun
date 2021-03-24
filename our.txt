@@ -1,0 +1,12 @@
+// Song lyrics: dancing in september - earth, wind, and fire
+
+$(eval
+    var a = "$(1)".toLowerCase();
+    switch (a) {
+        case "hearts":
+            "IN THE KEY THAT OUR SOULS WERE SINGING";
+            break;
+        default:
+            " ";
+    }
+)
