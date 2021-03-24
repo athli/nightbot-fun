@@ -1,13 +1,10 @@
 // Note: code is same for its, can't alias, not sure why
 // being annoying YEP
 
-$(eval 
-    var a = "$(1)".toLowerCase(); 
-    switch(a) {
-        case "not":
-            "yes it is";
-            break;
-        default:
-            "no it isn't";
+$(eval
+    if ("$(1)".toLowerCase() == "not") {
+        "yes it is";
+    } else {
+        "no it isn't"
     }
 )

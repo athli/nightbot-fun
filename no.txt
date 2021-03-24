@@ -1,10 +1,14 @@
 // being annoying yep
+// Song lyrics: we didn't start the fire - billy joel
 
 $(eval
     var a = "$(1)".toLowerCase();
     switch (a) {
         case "u":
             "uno reverse";
+            break;
+        case "we":
+            "WE DIDN'T START THE FIRE";
             break;
         default:
             "yes";

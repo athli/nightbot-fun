@@ -1,4 +1,5 @@
 // song lyrics: bohemian rhapsody - queen
+// code is same for "didnt"
 
 $(eval 
     var a = "$(5)".toLowerCase(); 

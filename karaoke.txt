@@ -1,6 +1,7 @@
 // will give the start of a song that nightbot can sing with chat
 
 $(eval 
-    const q=["NEVER GONNA GIVE YOU UP", "SOMEBODY ONCE TOLD ME THE WORLD WAS GONNA ROLL ME", "is this the real life? is this just fantasy?"]; 
+    const q=["NEVER GONNA GIVE YOU UP", "SOMEBODY ONCE TOLD ME THE WORLD WAS GONNA ROLL ME", 
+    "is this the real life? is this just fantasy?", "WE DIDN'T START THE FIRE"]; 
     q[Math.floor(Math.random()* q.length)];
 )

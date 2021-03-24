@@ -1,4 +1,5 @@
 // song lyrics: bohemian rhapsody - queen
+//  we didn't start the fire - billy joel 
 
 $(eval 
     var a = "$(3)".toLowerCase(); 
@@ -6,6 +7,15 @@ $(eval
         case "gone":
             "and thrown it all away";
             break;
+        case "are":
+            var c=1; 
+            var b="AND ON";
+            while (c < 8){ 
+                b+=" AND ON"; 
+                c = Math.floor(Math.random()*11); 
+                "AND ON AND ON " + b + "...";
+            }
+        break;
         default:
             " ";
             break;
